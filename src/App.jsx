@@ -25,6 +25,8 @@ function App() {
 
       <Route path='/vendas' element={<Venda/>} />
 
+      <Route path='/caixa' element={<Venda/>} />
+
 
     </Routes>
     </BrowserRouter>
