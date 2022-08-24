@@ -56,7 +56,7 @@ export default function Estoque(){
                                     <li className="item-lista">{produto.nome}</li>
                                     <li className="item-lista">R$ {produto.valor}</li>
                                     <li className="item-lista">{produto.quantidade}</li>
-                                    <div>
+                                    <div className="div-botao-estoque">
                                         <button className="botao-item" onClick={() => deletarProduto(produto.id)}>Excluir</button>
                                         <button className="botao-item" onClick={() => onClickEditar(produto.id)}>Editar</button>
                                     </div>

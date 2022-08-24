@@ -20,6 +20,7 @@
 .estoque-lista{
     color: white;
     list-style: none;
+    padding: 0;
 }
 
 .lista{
@@ -36,11 +37,11 @@
     ". . . ."; 
     margin: 20px 0;
     border-bottom: 1px #fff solid;
-    padding: 0 20px;
 }
 
 .item-cabecalho{
     color: #F78431;
+    text-align: center;
 }
 
 .div-lista{
@@ -52,7 +53,10 @@
     ". . . ."; 
     margin: 20px 0;
     border-bottom: 1px #fff solid;
-    padding: 0 20px;
+}
+
+.item-lista{
+    text-align: center;
 }
 
 .div-lista:hover {
@@ -60,6 +64,10 @@
     border-color: #F78431;
 }
 
+.div-botao-estoque{
+    display: flex;
+    align-items: center;
+}
 
 .botao-item{
     width: 70px;
@@ -72,4 +80,30 @@
 .link-item-estoque{
     text-decoration: none;
     cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+    .cabecalho-lista{
+        margin: 5px 0;
+    }
+    
+    .div-lista{
+        align-items: center;
+        margin: 5px 0;
+    }
+
+    .estoque{
+        margin: 20px;
+        font-size: 14px;
+    }
+    
+    .div-botao-estoque{
+        flex-direction: column;
+    }
+
+    .botao-item{
+        width: 60px;
+        height: 25px;
+        font-size: 14px;
+    }
 }

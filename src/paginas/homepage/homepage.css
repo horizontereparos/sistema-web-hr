@@ -24,6 +24,7 @@
     .lista-botoes {
         flex-direction: column;
         align-items: center;
+        height: 300px;
     }
 
     .logo-grande-pagina-inicial {
