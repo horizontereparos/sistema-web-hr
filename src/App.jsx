@@ -7,6 +7,7 @@ import {
   Route
 } from "react-router-dom"
 import Editar from './paginas/editar/Editar';
+import Venda from './paginas/venda/Venda';
 
 
 
@@ -21,6 +22,8 @@ function App() {
       <Route path='/estoque' element={<Estoque/>} />
 
       <Route path='/editar/:id' element={<Editar/>} />
+
+      <Route path='/vendas' element={<Venda/>} />
 
 
     </Routes>
