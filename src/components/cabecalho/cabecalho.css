@@ -1,0 +1,33 @@
+.cabecalho{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F78431;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-cabecalho{
+    width: 60px;
+}
+
+.titulo-cabecalho{
+    background-color: transparent;
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 425px) {
+    .cabecalho{
+        height: 40px;
+    }
+
+    .logo-cabecalho{
+        width: 60px;
+    }
+
+    .titulo-cabecalho{
+        font-size: 18px;
+    }
+}
