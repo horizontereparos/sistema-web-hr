@@ -1,16 +1,17 @@
-*{
-    background-color: #fff;
-}
 .alerta-desenvolvimento{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+.cabecalho-alerta{
+    width: 100%;
+}
+
 .texto-alerta{
-    color: #000;
+    color: #fff;
     text-align: center;
-    font-size: 40px;
+    font-size: 37px;
     width: 35%;
 }
 
@@ -18,13 +19,13 @@
     width: 50%;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
     .alerta-desenvolvimento{
         flex-direction: column;
-        margin-top: 50px;
     }
 
     .texto-alerta{
+        margin-top: 20px;
         font-size: 35px;
         width: auto;
     }
